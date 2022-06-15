@@ -1,7 +1,5 @@
 codes = new Set();
 
-codes.add("JJJJJ-JJJJJ");
-
 // SEEK
 
 function code ()
