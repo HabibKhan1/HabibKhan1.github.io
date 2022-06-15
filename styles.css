@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.button {
+    background-color: grey;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.current) {
+    background-color: red;
+}
+
+.current {
+    background-color: blue;
+}
