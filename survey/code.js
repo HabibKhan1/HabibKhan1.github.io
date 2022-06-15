@@ -1,13 +1,13 @@
 codes = new Set();
 var d = Date.now();
 
-codes.add("VYNIZ-CLOYP");
+codes.add("FNHOO-QHXFW");
 
 function code ()
 {
 	c = document.getElementById("code_input");
 
-	if (codes.has(c.value) == true && 1000 * 60 * 5 + d < Date.now())
+	if (codes.has(c.value) == true && 1000 * 60 * 5 + d > Date.now())
 	{
 		alert("Thank you!")
 
