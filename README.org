@@ -1,2 +1,0 @@
-* habibkhan1
-  This is a repo for [[https://habibkhan1.github.io][my website]].
