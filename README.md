@@ -1,6 +1,6 @@
 ## HabibKhan1.github.io
 
-That's (my website)[https://habibkhan1.github.io]!
+That's [my website](https://habibkhan1.github.io)!
 
 ## What does it have?
 
