@@ -1,7 +1,10 @@
 # Table of contents
 [HabibKhan1.github.io](#habibkhan1githubio)
+
 [What does it have?](#what-does-it-have)
+
 [Why did I make this?](#why-did-i-make-this)
+
 [The survey!](#the-survey)
 
 ## HabibKhan1.github.io
@@ -35,7 +38,7 @@ running, the user:
 - Follows the link
 - Inputs the code
 - Prints a page for me to approve (okay, this part is just for fun!)
-<br>
+
 The idea is that the user gets an e-mail with a completely random code (something like XXXXX-XXXXX). Now,
 what does the program actually do behind the scenes? It:
 
@@ -43,13 +46,13 @@ what does the program actually do behind the scenes? It:
 - Generates the code (like XXXXX-XXXXX)
 - Updates [code.js](https://github.com/HabibKhan1/HabibKhan1.github.io/blob/main/survey/code.js) to
 recognize the new code
-<br>
+
 Okay, let's pause here for a second. For this, the program actually edits code.js on the local computer
 accordingly. The program then pushes the changes to this (GitHub) repository with Git (all from the command
 line!) For this, the program has a [batch file](https://gitlab.com/HabibKhan1/WLTUCE/-/blob/main/Git.bat).
-<br>
+
 - Sends the e-mail accordingly
-<br>
+
 Here, the program edits [Message.txt](https://gitlab.com/HabibKhan1/WLTUCE/-/blob/main/Message.txt) to send
 the appropriate e-mail. Next, the program edits a 
 [PowerShell script](https://gitlab.com/HabibKhan1/WLTUCE/-/blob/main/Email.ps1) to send the e-mail, again
