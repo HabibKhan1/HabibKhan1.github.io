@@ -17,6 +17,8 @@ h1 {
 }
 
 .submit-button {
+    margin: auto;
+    width: 50%;
     background-color: grey;
     border: none;
     color: white;
@@ -27,6 +29,8 @@ h1 {
 }
 
 .input-form {
+    margin: auto;
+    width: 50%;
     border: none;
     padding: 30px 20px;
 }
