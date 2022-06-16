@@ -27,11 +27,14 @@ h1 {
 }
 
 .input-form {
-    border: none;
-    padding: 15px 50px;
+    padding: 30px 30px;
 }
 
 .button:hover {
+    opacity: 0.5;
+}
+
+.submit-button:hover {
     opacity: 0.5;
 }
 
