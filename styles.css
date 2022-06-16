@@ -16,9 +16,8 @@ h1 {
     cursor: pointer;
 }
 
-.center {
-    margin: auto;
-    width: 50%;
+.full {
+    width: 100%;
 }
 
 .submit-button {
@@ -31,6 +30,7 @@ h1 {
 }
 
 .input-form {
+    text-align: center;
     border: none;
 }
 
