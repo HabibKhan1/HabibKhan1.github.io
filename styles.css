@@ -16,9 +16,12 @@ h1 {
     cursor: pointer;
 }
 
-.submit-button {
+.center {
     margin: auto;
     width: 50%;
+}
+
+.submit-button {
     background-color: grey;
     border: none;
     color: white;
@@ -28,8 +31,6 @@ h1 {
 }
 
 .input-form {
-    margin: auto;
-    width: 50%;
     border: none;
 }
 
