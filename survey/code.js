@@ -1,7 +1,7 @@
 codes = new Set();
 var d = Date.now();
 
-codes.add("HNLDK-IKWCT");
+codes.add("EZEJH-WKIQC");
 
 function code ()
 {
@@ -15,9 +15,7 @@ function code ()
 		document.write("<html>");
 		document.write("<head>");
 		document.write("<meta charset = 'utf8' name = 'viewport' content = 'width = device-width, initial-scale = 1.0'>");
-
 		document.write("<title>Take the survey!</title>");
-
 		document.write("<link rel = 'stylesheet' href = '/styles.css'>");
 		document.write("</head>");
 		document.write("<body>");
