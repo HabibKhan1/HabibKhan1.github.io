@@ -1,7 +1,7 @@
 codes = new Set();
 var d = Date.now();
 
-codes.add("CCFOV-TWXLX");
+codes.add("HNLDK-IKWCT");
 
 function code ()
 {
@@ -14,9 +14,14 @@ function code ()
 		document.write("<!DOCTYPE HTML>");
 		document.write("<html>");
 		document.write("<head>");
+		document.write("<meta charset = 'utf8' name = 'viewport' content = 'width = device-width, initial-scale = 1.0'>");
+
+		document.write("<title>Take the survey!</title>");
+
+		document.write("<link rel = 'stylesheet' href = '/styles.css'>");
 		document.write("</head>");
 		document.write("<body>");
-		document.write("<p>Please print out this page for Habib Khan to approve.</p>");
+		document.write("<h1>Please print out this page for Habib Khan to approve.</h1>");
 		document.write("<button class = 'button' onclick = 'print()'><p>Print</p></button");
 		document.write("</body>");
 		document.write("</html>");
