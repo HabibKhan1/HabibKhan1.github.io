@@ -3,7 +3,7 @@ var addto = Math.floor(Math.random() * 5 + 1);
 var i = document.getElementById("input");
 var c_i = document.getElementById("code_input");
 
-function i_enter ()
+function i_enter (event)
 {
     if (event.key === "Enter")
     {
@@ -13,7 +13,7 @@ function i_enter ()
     }
 }
 
-function ci_enter ()
+function ci_enter (event)
 {
     if (event.key == "Enter")
     {
@@ -23,8 +23,8 @@ function ci_enter ()
     }
 }
 
-i.addEventListener("keypress", i_enter());
-c_i.addEventListener("keypress", ci_enter());
+i.addEventListener("keypress", i_enter(event));
+c_i.addEventListener("keypress", ci_enter(event));
 
 function darkmode ()
 {
