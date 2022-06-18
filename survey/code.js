@@ -1,15 +1,17 @@
 codes = new Set();
 var d = Date.now();
 
-codes.add("OQYKC-WZBPM");
+codes.add("BWXWC-XUGGZ");
 
 function code ()
 {
 	c = document.getElementById("code_input");
 
+	if (1000 * 60 * 5 + d < Date.now()) alert("Time's up! Code has expired.");
+	if (codes.has(c.value) == false) alert("Invalid code!");
 	if (codes.has(c.value) == true && 1000 * 60 * 5 + d > Date.now())
 	{
-		alert("Thank you!")
+		alert("Thank you!");
 
 		document.write("<!DOCTYPE HTML>");
 		document.write("<html>");
