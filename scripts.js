@@ -3,13 +3,28 @@ var addto = Math.floor(Math.random() * 5 + 1);
 var i = document.getElementById("input");
 var c_i = document.getElementById("code_input");
 
-function enter ()
+function i_enter ()
 {
-    if (event.key === "Enter") document.getElementById("guess-button").click();
+    if (event.key === "Enter")
+    {
+        event.preventDefault();
+
+        document.getElementById("guess-button").click();
+    }
 }
 
-i.addEventListener("keypress", enter());
-c_i.addEventListener("keypress", enter());
+function ci_enter ()
+{
+    if (event.key == "Enter")
+    {
+        event.preventDefault();
+
+        document.getElementById("code-button").click();
+    }
+}
+
+i.addEventListener("keypress", i_enter());
+c_i.addEventListener("keypress", ci_enter());
 
 function darkmode ()
 {
