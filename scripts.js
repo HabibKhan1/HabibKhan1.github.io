@@ -13,7 +13,7 @@ i.addEventListener("keypress", function (event) {
 });
 
 c_i.addEventListener("keypress", function (event) {
-    if (event.key === "Enter") { }
+    if (event.key === "Enter")
     {
         event.preventDefault();
 
