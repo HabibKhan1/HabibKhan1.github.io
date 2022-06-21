@@ -34,21 +34,6 @@
   
 </div>
 </nav>
-
-<script>
-
-    i = document.getElementById("input");
-
-    i.addEventListener("keypress", function (event) {
-        if (event.key === "Enter")
-        {
-            event.preventDefault();
-
-            document.getElementById("guess-button").click();
-        }
-    });
-
-</script>
     
 <h1>Guess the Number! (Between 1 and 10)</h1>
         
@@ -56,6 +41,20 @@
 
 <input class = "input-form full" value = "Type in your guess..." type = "text" onfocus = "this.value = ''" id = "input"><br>
 <button class = "submit-button full" onclick = "guess()" id = "guess-button"><p>Submit</button>
+
+<script>
+
+    i = document.getElementById("input");
+
+    i.addEventListener("keypress", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+
+            document.getElementById("guess-button").click();
+        }
+    });
+
+</script>
 
 </body>
 </html>
