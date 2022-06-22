@@ -16,6 +16,13 @@ h1 {
     cursor: pointer;
 }
 
+.top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
 .full {
     width: 100%;
 }
@@ -43,7 +50,6 @@ h1 {
 }
 
 ul {
-    position: fixed;
     list-style-type: none;
     margin: 0;
     padding: 0;
