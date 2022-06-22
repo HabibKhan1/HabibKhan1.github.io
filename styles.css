@@ -19,9 +19,9 @@ h1 {
 .top {
     display: none;
     position: fixed;
-    bottom: 50px;
-    right: 50px;
-    padding: 50px;
+    bottom: 20px;
+    right: 20px;
+    padding: 30px;
 }
 
 .full {
