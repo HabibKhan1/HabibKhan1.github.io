@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<meta charset = "utf8" name = "viewport" content = "width = device-width, initial-scale = 1.0">  
+
+<title>How This Website is Organized</title>
+
+<link rel = "stylesheet" href = "styles.css">
+<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+<link rel = "icon" href = "arch.png">
+
+<script src = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src = "scripts.js"></script>
+
+</head>
+<body>
+
+<nav class = "navbar navbar-expand-sm navbar-dark bg-dark">
+<div class = "container-fluid">    
+  <a class = "navbar-brand" href = "/index.html">Home</a>
+
+  <button class = "navbar-toggler" type = "button" data-bs-toggle = "collapse" data-bs-target = "#mynavbar">
+  <span class = "navbar-toggler-icon"></span>
+  </button>
+
+  <div class = "collapse navbar-collapse" id = "mynavbar">
+    <ul class = "navbar-nav me-auto">
+      <li class = "navbar-item"><a href = "https://github.com/HabibKhan1/HabibKhan1.github.io">Website source</a></li>
+      <li class = "navbar-item"><a href = "/articles/">Articles</a></li>
+      <li class = "navbar-item"><a href = "/games/">Games</a></li>
+      <li class = "navbar-item"><a href = "/videos/">Videos</a></li>
+      <li class = "navbar-item"><a href = "/about/">About</a></li>
+    </ul>
+  </div>
+  
+</div>
+</nav>
+
+<h1>How This Website is Organized</h1>
+        
+<button class = "button" onclick = "darkmode()"><p id = "button">Toggle dark mode</button>
+
+<p>One may wonder, how is this website organized? Well, let's look at <a href = "https://github.com/HabibKhan1/HabibKhan1.github.io">its GitHub repository</a>!</p>
+<p>Taking a look at this, we see several files/directories, along with <a href = "https://github.com/HabibKhan1/HabibKhan1.github.io/blob/main/README.md">a README</a>,
+a <a href = "https://github.com/HabibKhan1/HabibKhan1.github.io/blob/main/arch.png">website logo</a>, some JavaScript, CSS, and a home page (in HTML, of course.)</p>
+<img src = "/img/github-repo.png" alt = "The GitHub repository">
+<p>The index.html file constitutes the HTML for the home page. Every folder has one of these. Basically, if you refer your browser to one of these folders (like, for
+instance, my <a href = "/about/">about page</a>), it will use the index.html file by default to display what will be on your screen.</p>
+<p>Sometimes, folders have more than one HTML file. Why is this the case? Well, sometimes, as is the case for the "articles" folder, there are multiple articles, of
+course. So essentially, grouping HTML files in folders is purely for convenience.</p>
+<img src = "/img/github-articles.png" alt = 'The "articles" folder'>
+<img src = "/img/github-this-website.png" alt = 'The "this-website" folder in "articles"'>
+<p>The "img" folder, on the other hand, is only for storing screenshots and images, like the ones shown.</p>
+<p>So, that's basically how this website is organized! Hopefully, this clarifies the purpose of having so many folders in my repository.</p>
+        
+</body>    
+</html>
