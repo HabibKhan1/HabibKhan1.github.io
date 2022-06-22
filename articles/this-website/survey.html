@@ -49,19 +49,27 @@ and PowerShell (Windows only!)
 </p>
 
 <p>This is what the user does:</p>
-<ul class = "standard">
-    <li class = "standard">Enter their e-mail</li>
-    <li class = "standard">Check their e-mail</li>
-    <li class = "standard">Follow the link</li>
-    <li class = "standard">Enter their code</li>
+<ul id = "ustandard">
+    <li id = "standard">Enter their e-mail</li>
+    <li id = "standard">Check their e-mail</li>
+    <li id = "standard">Follow the link</li>
+    <li id = "standard">Enter their code</li>
 </ul>
 <p>The program will:</p>
-<ul class = "standard">
-    <li class = "standard">Get the e-mail</li>
-    <li class = "standard">Generate the code</li>
-    <li class = "standard">Push the changes to GitHub</li>
-    <li class = "standard">Sends the e-mail with the code</li>
+<ul id = "ustandard">
+    <li id = "standard">Get the e-mail</li>
+    <li id = "standard">Generate the code</li>
+    <li id = "standard">Push the changes to GitHub</li>
+    <li id = "standard">Sends the e-mail with the code</li>
 </ul>
+
+<script>
+
+document.getElementById("ustandard").element.classList.remove("ul");
+document.getElementById("standard").element.classList.remove("li");
+
+</script>
+
 <p>Okay, let's look at this step by step. First, when I start the program, the user inputs their e-mail:</p>
 <img src = "/img/wltuce-email.png" alt = "Getting the user's e-mail address">
 <p>After that, the program pushes the changes (with Git) to the repository:</p>
