@@ -41,14 +41,6 @@
         
 <button class = "button" onclick = "darkmode()"><p id = "button">Toggle dark mode</button>
 
-<style>
-
-ul {
-    list-style-type: circle;
-}
-
-</style>
-
 <p>My website (run on GitHub pages) has a not-so-visible survey page. This was a fun project to make.
 Basically, it generates a limited-time code for the user to enter <a href = "/survey/">on this page</a> (like XXXXX-XXXXX).
 The underlying program to generate this code and to push the changes (with Git) is
@@ -57,18 +49,18 @@ and PowerShell (Windows only!)
 </p>
 
 <p>This is what the user does:</p>
-<ul>
-    <li>Enter their e-mail</li>
-    <li>Check their e-mail</li>
-    <li>Follow the link</li>
-    <li>Enter their code</li>
+<ul class = "standard">
+    <li class = "standard">Enter their e-mail</li>
+    <li class = "standard">Check their e-mail</li>
+    <li class = "standard">Follow the link</li>
+    <li class = "standard">Enter their code</li>
 </ul>
 <p>The program will:</p>
-<ul>
-    <li>Get the e-mail</li>
-    <li>Generate the code</li>
-    <li>Push the changes to GitHub</li>
-    <li>Sends the e-mail with the code</li>
+<ul class = "standard">
+    <li class = "standard">Get the e-mail</li>
+    <li class = "standard">Generate the code</li>
+    <li class = "standard">Push the changes to GitHub</li>
+    <li class = "standard">Sends the e-mail with the code</li>
 </ul>
 <p>Okay, let's look at this step by step. First, when I start the program, the user inputs their e-mail:</p>
 <img src = "/img/wltuce-email.png" alt = "Getting the user's e-mail address">

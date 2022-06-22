@@ -50,6 +50,10 @@ ul {
     background-color: grey;
 }
 
+ul.standard {
+    list-style-type: circle;
+}
+
 li {
     float: left;
 }
@@ -60,6 +64,10 @@ li a {
     text-align: center;
     padding: 10px 25px;
     text-decoration: none;
+}
+
+li.standard {
+    color: none;
 }
 
 li a:hover:not(.current) {
