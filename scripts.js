@@ -7,7 +7,6 @@ function darkmode ()
     else localStorage.setItem("pagemode", "dark");
 
     document.body.classList.toggle("dark-mode");
-    }
 }
 
 function checkmode ()
