@@ -11,7 +11,7 @@ function darkmode ()
 
 function checkmode ()
 {
-    if (localStorage.getItem("pagemode") == "dark") document.body.classList.toggle("dark");
+    if (localStorage.getItem("pagemode") == "dark") document.body.classList.toggle("dark-mode");
 }
   
 function guess ()
