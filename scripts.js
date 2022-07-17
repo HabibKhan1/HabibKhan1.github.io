@@ -3,33 +3,18 @@ var addto = Math.floor(Math.random() * 5 + 1);
 
 function darkmode ()
 {
-    var btntext = document.getElementById("button");
-
-    if (localStorage.getItem("pagemode") == "dark")
-    {
-        btntext.innerHTML = "Toggle light mode";
-        document.body.classList.toggle("dark");
-    }
-    else if (localStorage.getItem("pagemode") == "light")
-    {
-        btntext.innerHTML = "Toggle light mode";
-        document.body.classList.toggle("light");
-    }
+    if (localStorage.getItem("pagemode") == "dark") document.body.classList.toggle("dark");
+    else if (localStorage.getItem("pagemode") == "light") document.body.classList.toggle("light");
     else
     {
+        localStorage.setItem("pagemode", "dark");
         document.body.classList.toggle("dark-mode");
-
-        if (btntext.innerHTML == "Toggle dark mode")
-        {
-            localStorage.setItem("pagemode", "dark");
-            btntext.innerHTML = "Toggle light mode";
-        }
-        else
-        {
-            localStorage.setItem("pagemode", "light");
-            btntext.innerHTML = "Toggle light mode";
-        }
     }
+}
+
+function checkmode ()
+{
+    if (localStorage.getItem("pagemode") == "dark") document.body.classList.toggle("dark");
 }
   
 function guess ()
