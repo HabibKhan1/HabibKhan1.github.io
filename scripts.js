@@ -3,14 +3,10 @@ var addto = Math.floor(Math.random() * 5 + 1);
 
 function darkmode ()
 {
-    if (localStorage.getItem("pagemode") == "dark") document.body.classList.toggle("dark");
-    else if (localStorage.getItem("pagemode") == "light") document.body.classList.toggle("light");
-    else
-    {
-        if (localStorage.getItem("pagemode") == "dark") localStorage.setItem("pagemode", "light");
-        else localStorage.setItem("pagemode", "dark");
+    if (localStorage.getItem("pagemode") == "dark") localStorage.setItem("pagemode", "light");
+    else localStorage.setItem("pagemode", "dark");
 
-        document.body.classList.toggle("dark-mode");
+    document.body.classList.toggle("dark-mode");
     }
 }
 
