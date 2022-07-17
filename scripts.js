@@ -7,7 +7,9 @@ function darkmode ()
     else if (localStorage.getItem("pagemode") == "light") document.body.classList.toggle("light");
     else
     {
-        localStorage.setItem("pagemode", "dark");
+        if (localStorage.getItem("pagemode") == "dark") localStorage.setItem("pagemode", "light");
+        else localStorage.setItem("pagemode", "dark");
+
         document.body.classList.toggle("dark-mode");
     }
 }
