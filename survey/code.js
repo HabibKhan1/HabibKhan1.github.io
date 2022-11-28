@@ -1,7 +1,7 @@
 codes = new Set();
 var d = Date.now();
 
-codes.add("CNJHC-FRJHJ");
+codes.add("GHOBO-EZYUG");
 
 function code ()
 {
